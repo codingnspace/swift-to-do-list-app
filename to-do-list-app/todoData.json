@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Run a mile",
+        "description": "Todo description",
+        "isHighPriority": false,
+        "dueDate": "Tomorrow",
+        "id": 1001,
+        "isComplete": true
+    },
+    {
+        "title": "Grocery Shopping",
+        "description": "Todo description",
+        "isHighPriority": true,
+        "dueDate": "Tomorrow",
+        "id": 1009,
+        "isComplete": false
+    },
+]

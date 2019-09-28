@@ -9,13 +9,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    var todoItem: ToDoItemModel
     var body: some View {
-        Text("Hello World")
+        VStack {
+            AddTodoFormView()
+            TodoList(todoItem: todoItem)
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(todoItem: todoData[1])
     }
 }
